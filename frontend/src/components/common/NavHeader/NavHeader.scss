@@ -1,0 +1,12 @@
+@import "../../../styles/variables.scss";
+
+.nav-path {
+    a {
+        color: $textGray5;
+        cursor: pointer;
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}

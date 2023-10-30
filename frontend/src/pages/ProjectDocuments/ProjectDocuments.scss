@@ -1,0 +1,20 @@
+@import "../../styles/typography.scss";
+
+.doc-container {
+	padding: 1rem;
+	.doc-heading {
+		@include font-size(5);
+		@include font-weight();
+		// 1.75 rem is not a spacer in bootstrap
+		margin-top: 1.75rem;
+		color: #0e0e0e;
+	}
+	.doc-created {
+		color: #525252;
+		font-style: italic;
+		span {
+			font-style: normal;
+			@include font-weight();
+		}
+	}
+}

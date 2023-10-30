@@ -1,0 +1,17 @@
+@import "../../../styles/typography.scss";
+
+.project-details-header {
+	.doc-heading {
+		@include font-size(5);
+		@include font-weight();
+		color: #0e0e0e;
+	}
+	.doc-created {
+		color: #525252;
+		font-style: italic;
+		span {
+			font-style: normal;
+			@include font-weight();
+		}
+	}
+}

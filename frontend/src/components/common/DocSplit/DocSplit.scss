@@ -1,0 +1,21 @@
+@import "../../../styles/typography.scss";
+
+.dotSplit-component {
+	.MuiDialogTitle-root {
+		@include font-size(6);
+		@include font-weight("thin");
+		color: #2b50ba;
+		text-align: center;
+		@media screen and (max-width: 1440px) {
+			font-size: 28px;
+		}
+	}
+	
+	.MuiDialog-paper {
+		padding: 1.5rem;
+	}
+	.confirmation-box-divider {
+		background: #cfcfcf;
+		height: 1.5px;
+	}	
+}

@@ -1,0 +1,15 @@
+@import "../../styles//typography.scss";
+
+.app-card-details {
+	.app-card-details-title {
+		color: #938e8e;
+	}
+	.app-card-details-title,
+	.app-card-details-value {
+		@include font-size(3);
+	}
+	.app-card-details-value {
+		color: #000;
+		@include font-weight("semi-bold");
+	}
+}

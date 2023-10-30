@@ -1,0 +1,27 @@
+.user-tag-card {
+	padding: 5px;
+	margin: 5px;
+	width: 450px;
+	height: 40px;
+
+	.user-tag-card-container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.user-info {
+		display: flex;
+		align-items: center;
+	}
+
+	.user-name {
+		font-size: 12px;
+		margin-left: 5px;
+	}
+
+	.user-icon {
+		font-size: 30px;
+		color: gray;
+	}
+}

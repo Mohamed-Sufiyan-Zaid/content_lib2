@@ -1,0 +1,11 @@
+@import "../../styles//typography.scss";
+
+.home-container {
+	.heading {
+		color: #0e0e0e;
+		@include font-size(5);
+		@include font-weight();
+		margin-top: 1.75rem;
+		margin-bottom: 1.5rem;
+	}
+}
